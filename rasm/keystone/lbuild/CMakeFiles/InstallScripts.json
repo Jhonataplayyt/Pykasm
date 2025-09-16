@@ -1,0 +1,24 @@
+{
+	"InstallScripts" : 
+	[
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Support/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/include/llvm/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/MC/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/AArch64/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/ARM/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/Hexagon/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/Mips/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/PowerPC/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/Sparc/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/SystemZ/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/X86/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/lib/Target/RISCV/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/keystone/cmake_install.cmake",
+		"/data/data/com.termux/files/home/pykasm/rasm/keystone/lbuild/llvm/cmake/modules/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
