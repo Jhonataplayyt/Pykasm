@@ -32,11 +32,11 @@ def build_env():
         if arch in ("aarch64", "arm64"):
             pos_0 = "/rasm/keystone/lbuild/llvm/lib/"
             pos_1 = "/rasm/keystone/lbuild/llvm/lib/libarm64keystone.so.0"
-            pos_2 = "/lib/libarm64pyasm.so"
+            pos_2 = "/lib/arm64pyasm.so"
         else:
             pos_0 = "/rasm/keystone/lbuild/llvm/lib/"
             pos_1 = "/rasm/keystone/lbuild/llvm/lib/libamd64keystone.so.0"
-            pos_2 = "/lib/libamd64pyasm.so"
+            pos_2 = "/lib/amd64pyasm.so"
     elif _os == "Windows":
         pos_0 = "/rasm/keystone/winbuild/llvm/lib/"
         pos_1 = "/rasm/keystone/winbuild/llvm/lib/keystone.dll"
