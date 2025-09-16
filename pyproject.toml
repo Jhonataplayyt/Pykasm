@@ -1,23 +1,46 @@
-[tool.poetry]
-name = "pykasm"
-version = "0.0.7"
-description = "A library for low-level abstract use to high-level."
-authors = ["Jhonata Rios Carneiro <jhonatacarneirorios432@gmail.com>"]
-license = "MIT"
-
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent"
-]
-
-readme = "README.md"
-homepage = "https://github.com/Jhonataplayyt/pykasm"
-repository = "https://github.com/Jhonataplayyt/pykasm"
-
-[tool.poetry.dependencies]
-python = "^3.8"
-
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pykasm"
+version = "0.0.8"
+description = "A library for low-level abstract use to high-level."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Jhonata Rios Carneiro", email = "jhonatacarneirorios432@gmail.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Jhonataplayyt/pykasm"
+Repository = "https://github.com/Jhonataplayyt/pykasm"
+
+# Descoberta dos pacotes no layout src/
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pykasm*"]
+
+# Incluir os binários na wheel
+[tool.setuptools.package-data]
+pykasm = [
+  "rasm/keystone/lbuild/llvm/lib/*.so",
+  "rasm/keystone/lbuild/llvm/lib/*.so.*",
+  "rasm/keystone/winbuild/llvm/lib/*.dll",
+  "rasm/keystone/winbuild/llvm/lib/*.a",
+  "rasm/lib/*.so",
+  "rasm/lib/*.so.*",
+  "rasm/lib/*.dll",
+  "rasm/lib/*.a",
+  "lib/*.so",
+  "lib/*.so.*",
+  "lib/*.dll",
+  "lib/*.a"
+]

@@ -137,7 +137,5 @@ asm_code = '\n'.join([
     "ret",
 ])
 
-print(asm_code)
-
 pykasm.run_asm(asm_code)
 ```
